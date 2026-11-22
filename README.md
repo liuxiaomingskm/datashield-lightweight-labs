@@ -1,206 +1,160 @@
-<div align="center">
+<p align="center">
+  <img src="assets/banner.svg" alt="Terminal: datashield --about — DataShield Lightweight Labs. Practical privacy, security and AI-safety tools for everyday developers." width="100%" />
+</p>
 
-<img src="assets/banner.svg" alt="DataShield Lightweight Labs — practical privacy, security and AI-safety tools for developers" width="100%" />
+<p align="center">
+  <img src="https://img.shields.io/github/last-commit/liuxiaomingskm/datashield-lightweight-labs?style=flat&color=30363d&labelColor=0d1117&label=last%20commit" alt="Last commit" />
+  <img src="https://img.shields.io/github/commit-activity/m/liuxiaomingskm/datashield-lightweight-labs?style=flat&color=30363d&labelColor=0d1117&label=activity" alt="Commit activity" />
+  <img src="https://img.shields.io/github/license/liuxiaomingskm/datashield-lightweight-labs?style=flat&color=30363d&labelColor=0d1117" alt="License" />
+  <img src="https://img.shields.io/github/stars/liuxiaomingskm/datashield-lightweight-labs?style=flat&color=30363d&labelColor=0d1117" alt="Stars" />
+  <img src="https://img.shields.io/badge/next.js-11-30363d?style=flat&labelColor=0d1117&logo=nextdotjs&logoColor=white" alt="Next.js 11" />
+  <img src="https://img.shields.io/badge/mdx-1.6-30363d?style=flat&labelColor=0d1117&logo=mdx&logoColor=white" alt="MDX" />
+  <img src="https://img.shields.io/badge/tailwind-2-30363d?style=flat&labelColor=0d1117&logo=tailwindcss&logoColor=38bdf8" alt="Tailwind CSS 2" />
+</p>
 
-<br />
-
-<a href="#-projects"><img src="https://img.shields.io/badge/🧪_Projects-4f46e5?style=for-the-badge" alt="Projects" /></a>
-<a href="#-privacy-guide-site"><img src="https://img.shields.io/badge/📖_Privacy_guide-7e22ce?style=for-the-badge" alt="Privacy guide" /></a>
-<a href="#-contributing"><img src="https://img.shields.io/badge/🤝_Contribute-be185d?style=for-the-badge" alt="Contribute" /></a>
-
-<br />
-
-![Last Commit](https://img.shields.io/github/last-commit/liuxiaomingskm/datashield-lightweight-labs?color=6366f1&style=flat-square)
-![Commit Activity](https://img.shields.io/github/commit-activity/m/liuxiaomingskm/datashield-lightweight-labs?color=9370DB&style=flat-square)
-![License](https://img.shields.io/github/license/liuxiaomingskm/datashield-lightweight-labs?color=a855f7&style=flat-square)
-![Issues](https://img.shields.io/github/issues/liuxiaomingskm/datashield-lightweight-labs?color=ec4899&style=flat-square)
-![Stars](https://img.shields.io/github/stars/liuxiaomingskm/datashield-lightweight-labs?color=f5b301&style=flat-square)
-<br />
-![Next.js](https://img.shields.io/badge/Next.js-11-000000?style=flat-square&logo=nextdotjs)
-![MDX](https://img.shields.io/badge/MDX-1.6-1B1F24?style=flat-square&logo=mdx)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind-2-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-4.4-3178C6?style=flat-square&logo=typescript&logoColor=white)
-
-**Privacy shouldn't be a barrier. It should be built in.**
-
-</div>
+<p align="center">
+  <code>about</code> · <a href="#02--projects"><code>projects</code></a> · <a href="#03--privacy-guide"><code>privacy-guide</code></a> · <a href="#04--run-it"><code>run-it</code></a> · <a href="#05--roadmap"><code>roadmap</code></a> · <a href="#06--contribute"><code>contribute</code></a>
+</p>
 
 ---
 
-## 👋 About
+## 01 · about
 
-**DataShield Lightweight Labs** is an open-source initiative focused on practical tools, frameworks and research that improve **data privacy**, **security** and **AI safety** in modern software.
+> **Privacy shouldn't be a barrier — it should be built in.**
 
-As AI systems and cloud-native applications continue to scale, safeguarding user data and enforcing robust security controls become a responsibility for every engineer. The goal here is to make that easier: small, transparent, developer-friendly tools that teams of any size can adopt in an afternoon.
+DataShield Lightweight Labs is an open-source initiative for **small, sharp tools** that make data privacy, application security and AI safety easier to get right. No platforms, no sign-ups, no lock-in. Just utilities a developer can read in one sitting and adopt in an afternoon.
 
-## 🎯 Focus areas
+```yaml
+focus:
+  ai-privacy-and-safety:
+    - stop PII from leaking into LLM prompts
+    - redaction pipelines for model inputs and outputs
+    - privacy-preserving middleware for generative-AI workflows
+  application-security:
+    - open-source security scanners
+    - misconfiguration detection for cloud and databases
+    - threat-modeling templates and tooling
+  compliance-and-risk:
+    - developer-first tooling aligned with GDPR, CCPA and SOC 2
+    - data-minimization utilities
+    - consent and data-lifecycle tracking
+principles: [lightweight, transparent, local-first, open-source]
+```
 
-<table>
-  <tr>
-    <td width="33%" valign="top">
-      <h3>🤖 AI Privacy &amp; Safety</h3>
-      <ul>
-        <li>Preventing PII leakage in LLMs</li>
-        <li>Redaction pipelines for model inputs and outputs</li>
-        <li>Privacy-preserving middleware for generative AI workflows</li>
-      </ul>
-    </td>
-    <td width="33%" valign="top">
-      <h3>🛡️ Application Security</h3>
-      <ul>
-        <li>Open-source security scanners</li>
-        <li>Misconfiguration detection for cloud and databases</li>
-        <li>Threat-modeling templates and tooling</li>
-      </ul>
-    </td>
-    <td width="33%" valign="top">
-      <h3>📋 Compliance &amp; Risk</h3>
-      <ul>
-        <li>Developer-first tools aligned with GDPR, CCPA, SOC 2</li>
-        <li>Data-minimization utilities</li>
-        <li>Consent and data-lifecycle tracking modules</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+## 02 · projects
 
-## 🧪 Projects
+```diff
++ [live]  ai-privacy-guardrail   Redact emails, phones, IPs, cards and API keys before prompting an AI,
++                                then restore the real values in its reply. Runs 100% in the browser.
++ [live]  privacy-guide          Next.js + MDX site with a practical guide to staying private online.
+! [next]  cloud-sec-auditor      Scanner for risky cloud database configs: public endpoints, weak auth,
+!                                missing encryption.
+```
 
-| | Project | What it does | Status |
-|:-:|---|---|:-:|
-| 🛡️ | **[AI Privacy Guardrail](https://github.com/liuxiaomingskm/AI-Privacy-Guardrail)** | Redacts emails, phone numbers, IPs, card numbers and API keys before you prompt an AI model, using consistent placeholders like `[EMAIL_1]`, then restores the real values in the reply. 100% in-browser. · [**Live demo →**](https://liuxiaomingskm.github.io/AI-Privacy-Guardrail/) | ![Live](https://img.shields.io/badge/-live-15803d?style=flat-square) |
-| ☁️ | **cloud-sec-auditor** | Lightweight scanner for security risks in cloud database configurations: public endpoints, weak auth, missing encryption | ![Planned](https://img.shields.io/badge/-planned-6b7280?style=flat-square) |
-| 📖 | **[Privacy guide site](#-privacy-guide-site)** | A Next.js + MDX site hosting a practical guide to protecting your privacy online (in this repo) | ![Included](https://img.shields.io/badge/-in_this_repo-7e22ce?style=flat-square) |
+**→ [AI Privacy Guardrail](https://github.com/liuxiaomingskm/AI-Privacy-Guardrail)** · [live demo](https://liuxiaomingskm.github.io/AI-Privacy-Guardrail/)
+&nbsp;&nbsp;Turns `jane@acme.com` into `[EMAIL_1]` before it reaches the model, and back again after.
 
-## 📖 Privacy guide site
+**→ [Privacy guide](#03--privacy-guide)** · this repo
+&nbsp;&nbsp;The website in this repository. Details below.
 
-This repository contains a small, statically exportable website that publishes **《如何在网络中保护隐私》**, a practical, Chinese-language guide to protecting your privacy online.
+## 03 · privacy-guide
+
+This repo builds a static site that publishes **《如何在网络中保护隐私》** (*How to Protect Your Privacy Online*), a hands-on, Chinese-language guide.
 
 > [!NOTE]
-> The guide was written by **[KallyDev](https://github.com/kallydev) and the community** (October 2021), as credited in the article's byline. This repo hosts it as part of the lab's privacy-education resources.
+> Guide written by **[KallyDev](https://github.com/kallydev) and the community** (Oct 2021), as credited in the article's byline. It's hosted here as part of the lab's privacy-education resources.
 
-<details open>
-<summary><b>📚 What the guide covers</b></summary>
-
-<br />
-
-| Topic | 主题 |
-|---|---|
-| What online privacy is, and how it differs from anonymity | 网络隐私的定义 |
-| The real-world harm of leaked personal data | 隐私泄漏的危害 |
-| Checking whether your data has leaked (Firefox Monitor, Have I Been Pwned) | 检查隐私泄漏情况 |
-| Choosing open-source browsers and privacy extensions | 使用开源浏览器 · 增强你的浏览器 |
-| Open-source input methods | 使用开源输入法 |
-| Isolating untrusted apps in virtual machines | 使用虚拟机安装不可信软件 |
-| Refusing unnecessary data collection and face recognition | 拒绝上传非必要信息 · 避免使用人脸识别 |
-| Hiding your email / phone from search, auditing app permissions | 关闭邮箱和手机号搜索功能 · 检查应用权限 |
-| Blurring and watermarking images before sharing | 给图片打码和添加水印 |
-| Why protecting privacy matters | 保护隐私的意义 |
-
-</details>
-
-### 🏗️ How the site is built
-
-```mermaid
-flowchart LR
-    A["📝 posts/index.mdx<br/><i>guide content</i>"] --> B["⚛️ pages/index.tsx<br/><i>Next.js page</i>"]
-    S["🎨 Tailwind + markdown.css"] --> B
-    B --> C["💬 Disqus comments"]
-    B --> D["📦 next build + next export"]
-    D --> E["🌐 Static HTML<br/>+ sitemap.xml + robots.txt"]
-
-    style A fill:#312e81,stroke:#818cf8,color:#fff
-    style B fill:#4c1d95,stroke:#a78bfa,color:#fff
-    style E fill:#0f766e,stroke:#2dd4bf,color:#fff
+```text
+如何在网络中保护隐私
+├── 网络隐私的定义 ............ what privacy is (vs. anonymity)
+├── 隐私泄漏的危害 ............ what leaked data is used for
+├── 检查隐私泄漏情况 .......... Firefox Monitor, Have I Been Pwned
+├── 防范隐私泄漏的方法
+│   ├── 使用开源浏览器 ........ open-source browsers
+│   ├── 增强你的浏览器 ........ tracker-blocking extensions
+│   ├── 使用开源输入法 ........ open-source input methods
+│   ├── 使用虚拟机 ............ sandbox untrusted apps in a VM
+│   ├── 拒绝上传非必要信息 .... refuse unnecessary data collection
+│   ├── 避免使用人脸识别 ...... avoid face recognition
+│   ├── 关闭邮箱和手机号搜索 .. hide your email and phone from search
+│   ├── 检查应用权限 .......... audit app permissions
+│   └── 给图片打码和添加水印 .. blur and watermark shared images
+└── 保护隐私的意义 ............ why it matters
 ```
 
-## 🚀 Getting started
+**How the site is put together**
+
+```text
+posts/index.mdx ──► pages/index.tsx ──► next build ──► next export ──► ./out (static HTML)
+   (content)          (layout + Disqus)                     │
+                                                            └──► next-sitemap: sitemap.xml + robots.txt
+styles: Tailwind CSS 2 + styles/markdown.css
+```
+
+## 04 · run-it
 
 > [!IMPORTANT]
-> The site uses **Next.js 11**, which expects **Node.js 14–16**. With newer Node versions, use a version manager, for example `nvm use 16`.
+> Next.js 11 needs **Node.js 14–16**. With newer Node versions, switch first, for example `nvm use 16`.
 
-```bash
-git clone https://github.com/liuxiaomingskm/datashield-lightweight-labs.git
-cd datashield-lightweight-labs
-yarn install
-yarn dev          # → http://localhost:3000
+```console
+$ git clone https://github.com/liuxiaomingskm/datashield-lightweight-labs.git
+$ cd datashield-lightweight-labs
+$ yarn install
+$ yarn dev
+  ready - started server on http://localhost:3000
 ```
 
-<details>
-<summary><b>📦 Build &amp; deploy a static site</b></summary>
+**Static deploy**
 
-<br />
-
-```bash
-export SITE_URL=https://your-domain.example            # used by next-sitemap
-export NEXT_PUBLIC_SITE_URL=https://your-domain.example # used by Disqus
-export NEXT_PUBLIC_SITE_TITLE="Privacy Guide"
-
-yarn deploy       # next-sitemap → next build → next export  (output: ./out)
+```console
+$ export SITE_URL=https://your-domain.example              # sitemap + robots.txt
+$ export NEXT_PUBLIC_SITE_URL=https://your-domain.example  # Disqus thread URL
+$ export NEXT_PUBLIC_SITE_TITLE="Privacy Guide"
+$ yarn deploy                                              # → ./out
 ```
 
-Upload `./out` to any static host: GitHub Pages, Netlify, Vercel or Cloudflare Pages.
+Upload `./out` to GitHub Pages, Netlify, Vercel or Cloudflare Pages.
 
-| Script | What it does |
+| command | does |
 |---|---|
-| `yarn dev` | Start the dev server with hot reload |
-| `yarn build` | Production build |
-| `yarn start` | Serve the production build |
-| `yarn lint` | Run ESLint (`next lint`) |
-| `yarn deploy` | Generate the sitemap, then build and export static HTML |
+| `yarn dev` | dev server with hot reload |
+| `yarn build` | production build |
+| `yarn start` | serve the production build |
+| `yarn lint` | ESLint via `next lint` |
+| `yarn deploy` | sitemap → build → static export |
 
-</details>
-
-<details>
-<summary><b>📁 Project layout</b></summary>
-
-<br />
-
-```
-pages/
-  _app.tsx          App shell, global styles
-  _document.tsx     HTML document
-  index.tsx         Home page: renders the guide + Disqus thread
-posts/
-  index.mdx         The privacy guide (MDX)
-styles/
-  globals.css       Tailwind base
-  markdown.css      Article typography
-public/             Static assets
-next.config.js      MDX support
-next-sitemap.js     Sitemap / robots.txt generation
-assets/             README artwork
+```text
+.
+├── pages/            _app.tsx · _document.tsx · index.tsx (guide + comments)
+├── posts/            index.mdx (the guide)
+├── styles/           globals.css · markdown.css
+├── public/           static assets
+├── assets/           README artwork
+├── next.config.js    MDX support
+└── next-sitemap.js   sitemap / robots.txt
 ```
 
-</details>
-
-## 🗺️ Roadmap
+## 05 · roadmap
 
 - [x] Privacy guide site (Next.js + MDX)
-- [x] **AI Privacy Guardrail**: client-side PII and secret redaction for LLM prompts
-- [ ] **cloud-sec-auditor**: cloud database misconfiguration scanner
-- [ ] Redaction middleware for server-side LLM pipelines
+- [x] `ai-privacy-guardrail`: client-side PII and secret redaction for LLM prompts
+- [ ] `cloud-sec-auditor`: cloud database misconfiguration scanner
+- [ ] Server-side redaction middleware for LLM pipelines
 - [ ] Data-minimization and consent-tracking utilities
 - [ ] English edition of the privacy guide
 
-## 🤝 Contributing
+## 06 · contribute
 
-Security and privacy are community efforts. If you care about AI safety, cloud security or data protection:
+```console
+$ git checkout -b feat/your-idea
+$ git commit -m "feat: something that makes data a little safer"
+$ git push origin feat/your-idea   # then open a pull request
+```
 
-- 🐛 **[Open an issue](https://github.com/liuxiaomingskm/datashield-lightweight-labs/issues)** for bugs, ideas or new modules
-- 🔧 **Submit a PR**: small, focused changes are easiest to review
-- 💡 **Share a tool** you'd like to see built
+Bug, idea or a tool you wish existed? **[Open an issue](https://github.com/liuxiaomingskm/datashield-lightweight-labs/issues).** Small, focused PRs are easiest to review.
 
-Help build a safer digital ecosystem, one line of code at a time.
+---
 
-## 📄 License
-
-[MIT License](LICENSE)
-
-<div align="center">
-
-<br />
-
-**If you find this useful, a ⭐ helps more developers discover it.**
-
-</div>
+<p align="center">
+  <sub><a href="LICENSE">MIT License</a> · built one line of code at a time · <b>⭐ star the repo if it's useful</b></sub>
+</p>
