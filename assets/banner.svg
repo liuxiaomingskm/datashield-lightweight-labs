@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="340" viewBox="0 0 1280 340" role="img" aria-label="DataShield Lightweight Labs — practical privacy, security and AI-safety tools for developers">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1026"/>
+      <stop offset="0.5" stop-color="#1e1b4b"/>
+      <stop offset="1" stop-color="#3b0764"/>
+    </linearGradient>
+    <linearGradient id="mark" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#a5b4fc"/>
+      <stop offset="1" stop-color="#c084fc"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.85" cy="0.2" r="0.55">
+      <stop offset="0" stop-color="#a855f7" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#a855f7" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#ffffff" fill-opacity="0.07"/>
+    </pattern>
+  </defs>
+
+  <rect width="1280" height="340" rx="24" fill="url(#bg)"/>
+  <rect width="1280" height="340" rx="24" fill="url(#dots)"/>
+  <rect width="1280" height="340" rx="24" fill="url(#glow)"/>
+
+  <!-- binary rain, right side -->
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" fill="#c4b5fd" fill-opacity="0.16">
+    <text x="1010" y="58">01101 10010 0110</text>
+    <text x="1040" y="84">1001 0110 10110</text>
+    <text x="1000" y="110">0110 1101 00101</text>
+    <text x="1060" y="136">10 0110 1001 01</text>
+    <text x="1020" y="162">0011 0101 1100</text>
+  </g>
+
+  <!-- shield + lock mark -->
+  <g transform="translate(84 74)">
+    <path d="M64 0 8 20v50c0 40 24 74 56 88 32-14 56-48 56-88V20L64 0Z" fill="url(#mark)"/>
+    <rect x="40" y="70" width="48" height="38" rx="7" fill="#1e1b4b"/>
+    <path d="M50 70V58a14 14 0 0 1 28 0v12" fill="none" stroke="#1e1b4b" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="64" cy="86" r="5" fill="#c4b5fd"/>
+    <rect x="61.5" y="88" width="5" height="11" rx="2" fill="#c4b5fd"/>
+  </g>
+
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+    <text x="236" y="128" fill="#ffffff" font-size="52" font-weight="800" letter-spacing="-1">DataShield <tspan fill="#c4b5fd">Lightweight Labs</tspan></text>
+    <text x="238" y="174" fill="#e0e7ff" font-size="23" font-weight="500">Practical privacy, security &amp; AI-safety tools for everyday developers</text>
+    <text x="238" y="212" fill="#a5b4fc" font-size="17">Open source · developer-first · privacy built in, not bolted on</text>
+  </g>
+
+  <!-- focus chips -->
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="17" font-weight="600">
+    <rect x="84" y="258" width="216" height="44" rx="22" fill="#6366f1" fill-opacity="0.22" stroke="#818cf8" stroke-opacity="0.6"/>
+    <text x="106" y="286" fill="#e0e7ff">🤖  AI Privacy &amp; Safety</text>
+
+    <rect x="316" y="258" width="232" height="44" rx="22" fill="#a855f7" fill-opacity="0.2" stroke="#c084fc" stroke-opacity="0.6"/>
+    <text x="338" y="286" fill="#f3e8ff">🛡️  Application Security</text>
+
+    <rect x="564" y="258" width="250" height="44" rx="22" fill="#ec4899" fill-opacity="0.16" stroke="#f472b6" stroke-opacity="0.55"/>
+    <text x="586" y="286" fill="#fce7f3">📋  Compliance &amp; Risk</text>
+
+    <rect x="830" y="258" width="216" height="44" rx="22" fill="#14b8a6" fill-opacity="0.16" stroke="#2dd4bf" stroke-opacity="0.55"/>
+    <text x="852" y="286" fill="#ccfbf1">📖  Privacy Guides</text>
+  </g>
+</svg>
