@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="470" viewBox="0 0 1280 470" role="img" aria-label="Terminal: datashield --about — Practical privacy, security and AI-safety tools for everyday developers. datashield status lists five live projects.">
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="500" viewBox="0 0 1280 500" role="img" aria-label="Terminal: datashield --about — Practical privacy, security and AI-safety tools for everyday developers. datashield status lists six live projects.">
   <style>
     .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
     .p { fill: #3fb950; }
@@ -23,7 +23,7 @@
   </style>
 
   <!-- window -->
-  <rect x="0.5" y="0.5" width="1279" height="469" rx="14" fill="#0d1117" stroke="#30363d"/>
+  <rect x="0.5" y="0.5" width="1279" height="499" rx="14" fill="#0d1117" stroke="#30363d"/>
   <path d="M14.5 0.5h1251a14 14 0 0 1 14 14V44H0.5V14.5a14 14 0 0 1 14-14Z" fill="#161b22"/>
   <line x1="0.5" y1="44" x2="1279.5" y2="44" stroke="#30363d"/>
   <circle cx="28" cy="22" r="7" fill="#ff5f57"/>
@@ -48,12 +48,13 @@
       <text x="64" y="280"><tspan class="ok">[ live ]</tspan><tspan x="200" class="cmd">ai-privacy-guardrail</tspan><tspan x="590" class="out">AI / LLM · redact PII before you prompt</tspan></text>
       <text x="64" y="310"><tspan class="ok">[ live ]</tspan><tspan x="200" class="cmd">medredact</tspan><tspan x="590" class="out">healthcare · HIPAA Safe Harbor de-identification</tspan></text>
       <text x="64" y="340"><tspan class="ok">[ live ]</tspan><tspan x="200" class="cmd">cloud-sec-auditor</tspan><tspan x="590" class="out">cloud · AWS / GCP / Azure misconfig scanner</tspan></text>
-      <text x="64" y="370"><tspan class="ok">[ live ]</tspan><tspan x="200" class="cmd">privacy-data-protection-skills</tspan><tspan x="590" class="out">compliance · 282 privacy skills for AI agents</tspan></text>
-      <text x="64" y="400"><tspan class="ok">[ live ]</tspan><tspan x="200" class="cmd">privacy-guide</tspan><tspan x="590" class="out">education · staying private online</tspan></text>
+      <text x="64" y="370"><tspan class="ok">[ live ]</tspan><tspan x="200" class="cmd">metascrub</tspan><tspan x="590" class="out">media · strip GPS &amp; authors from photos, docs</tspan></text>
+      <text x="64" y="400"><tspan class="ok">[ live ]</tspan><tspan x="200" class="cmd">privacy-data-protection-skills</tspan><tspan x="590" class="out">compliance · 282 privacy skills for AI agents</tspan></text>
+      <text x="64" y="430"><tspan class="ok">[ live ]</tspan><tspan x="200" class="cmd">privacy-guide</tspan><tspan x="590" class="out">education · staying private online</tspan></text>
     </g>
     <g class="l6">
-      <text x="40" y="444"><tspan class="p">➜</tspan><tspan class="flag"> ~ </tspan></text>
-      <rect class="cursor" x="88" y="427" width="11" height="22" fill="#e6edf3"/>
+      <text x="40" y="474"><tspan class="p">➜</tspan><tspan class="flag"> ~ </tspan></text>
+      <rect class="cursor" x="88" y="457" width="11" height="22" fill="#e6edf3"/>
     </g>
   </g>
 </svg>
