@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.svg" alt="Terminal: datashield --about — DataShield Lightweight Labs. Practical privacy, security and AI-safety tools for everyday developers." width="100%" />
+  <img src="assets/banner.svg" alt="Terminal: datashield --about — DataShield Lightweight Labs. Practical privacy, security and AI-safety tools for everyday developers. Five live projects." width="100%" />
 </p>
 
 <p align="center">
@@ -43,19 +43,47 @@ principles: [lightweight, transparent, local-first, open-source]
 
 ## 02 · projects
 
-```diff
-+ [live]  ai-privacy-guardrail   Redact emails, phones, IPs, cards and API keys before prompting an AI,
-+                                then restore the real values in its reply. Runs 100% in the browser.
-+ [live]  privacy-guide          Next.js + MDX site with a practical guide to staying private online.
-! [next]  cloud-sec-auditor      Scanner for risky cloud database configs: public endpoints, weak auth,
-!                                missing encryption.
+DataShield Lightweight Labs is the hub. Each project below was **developed under the initiative** and carries it into a different industry.
+
+```text
+datashield-lightweight-labs ··· initiative hub
+│
+├── tools ─────────────── enforce privacy in code
+│   ├── ai-privacy-guardrail ............ AI / LLM
+│   ├── medredact ....................... healthcare
+│   └── cloud-sec-auditor ............... cloud & SaaS
+│
+├── knowledge ─────────── teach AI agents compliance
+│   └── privacy-data-protection-skills .. GDPR · HIPAA · EU AI Act · +14 more
+│
+└── education
+    └── privacy-guide ................... this repository
 ```
 
-**→ [AI Privacy Guardrail](https://github.com/liuxiaomingskm/AI-Privacy-Guardrail)** · [live demo](https://liuxiaomingskm.github.io/AI-Privacy-Guardrail/)
-&nbsp;&nbsp;Turns `jane@acme.com` into `[EMAIL_1]` before it reaches the model, and back again after.
+```diff
++ [live]  ai-privacy-guardrail            AI / LLM      Redact PII & secrets before prompting, restore them in the reply
++ [live]  medredact                       healthcare    De-identify clinical notes against HIPAA's 18 Safe Harbor identifiers
++ [live]  cloud-sec-auditor               cloud / SaaS  Grade AWS · GCP · Azure configs for public exposure, with CIS fixes
++ [live]  privacy-data-protection-skills  compliance    282 structured privacy skills AI agents load on demand
++ [live]  privacy-guide                   education     Next.js + MDX guide to staying private online
+! [next]  finance pack                    finance       PCI DSS / GLBA checks for payment and banking data
+```
 
-**→ [Privacy guide](#03--privacy-guide)** · this repo
-&nbsp;&nbsp;The website in this repository. Details below.
+| project | industry | what it does | links |
+|---|---|---|---|
+| **AI Privacy Guardrail** | 🤖 AI / LLM | Turns `jane@acme.com` into `[EMAIL_1]` before it reaches a model, and back again after | [repo](https://github.com/liuxiaomingskm/AI-Privacy-Guardrail) · [demo](https://liuxiaomingskm.github.io/AI-Privacy-Guardrail/) |
+| **MedRedact** | 🏥 healthcare | Auto-detects 15 of HIPAA's 18 Safe Harbor identifier types (names, MRNs, dates…); date shifting; re-identifies AI replies | [repo](https://github.com/liuxiaomingskm/MedRedact) · [demo](https://liuxiaomingskm.github.io/MedRedact/) |
+| **cloud-sec-auditor** | ☁️ cloud & SaaS | Audits Terraform plans and CLI exports; letter grade, 24 rules, SARIF for CI | [repo](https://github.com/liuxiaomingskm/cloud-sec-auditor) · [demo](https://liuxiaomingskm.github.io/cloud-sec-auditor/#demo) |
+| **Privacy & Data Protection Skills** | ⚖️ compliance | 282 agentskills.io skills across GDPR, CCPA, HIPAA, EU AI Act, PIPL and more, extending mukul975's open-source skills library | [repo](https://github.com/zecongyu/Privacy-Data-Protection-Skills) |
+| **Privacy guide** | 📖 education | The website in this repository | [details ↓](#03--privacy-guide) |
+
+**Building under the initiative?** Add the badge to your README:
+
+[![Developed under the DataShield Lightweight Labs initiative](https://img.shields.io/badge/%F0%9F%9B%A1%EF%B8%8F%20DataShield%20Lightweight%20Labs-initiative%20project-4f46e5?style=flat-square)](https://github.com/liuxiaomingskm/datashield-lightweight-labs)
+
+```markdown
+[![Developed under the DataShield Lightweight Labs initiative](https://img.shields.io/badge/%F0%9F%9B%A1%EF%B8%8F%20DataShield%20Lightweight%20Labs-initiative%20project-4f46e5?style=flat-square)](https://github.com/liuxiaomingskm/datashield-lightweight-labs)
+```
 
 ## 03 · privacy-guide
 
@@ -138,7 +166,10 @@ Upload `./out` to GitHub Pages, Netlify, Vercel or Cloudflare Pages.
 
 - [x] Privacy guide site (Next.js + MDX)
 - [x] `ai-privacy-guardrail`: client-side PII and secret redaction for LLM prompts
-- [ ] `cloud-sec-auditor`: cloud database misconfiguration scanner
+- [x] `medredact`: HIPAA Safe Harbor de-identification for clinical text
+- [x] `cloud-sec-auditor`: multi-cloud misconfiguration scanner (web + CLI)
+- [x] `privacy-data-protection-skills`: privacy-compliance skills for AI agents
+- [ ] Finance pack: PCI DSS / GLBA checks for payment and banking data
 - [ ] Server-side redaction middleware for LLM pipelines
 - [ ] Data-minimization and consent-tracking utilities
 - [ ] English edition of the privacy guide
