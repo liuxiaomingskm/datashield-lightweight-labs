@@ -10,9 +10,9 @@
 
 **DataShield Lightweight Labs** is an open-source initiative focused on building practical tools, frameworks, and research to enhance **data privacy**, **security**, and **AI safety** in modern software systems.
 
-We believe that as AI systems and cloud-native applications continue to scale, safeguarding user data and enforcing robust security controls becomes a critical responsibility for every engineer. Our mission is to create accessible, developer-friendly solutions that help organizations of all sizes adopt stronger privacy and security practices.
+As AI systems and cloud-native applications continue to scale, safeguarding user data and enforcing robust security controls becomes a critical responsibility for every engineer. The mission of this project is to create accessible, developer-friendly solutions that help organizations of all sizes adopt stronger privacy and security practices.
 
-### 🔐 What We Work On
+### 🔐 Focus Areas
 - **AI Privacy & Safety**
   - Preventing PII leakage in LLMs  
   - Redaction pipelines for model inputs/outputs  
@@ -28,7 +28,7 @@ We believe that as AI systems and cloud-native applications continue to scale, s
   - Data minimization utilities  
   - Consent and data-lifecycle tracking modules  
 
-### 🎯 Our Vision
+### 🎯 Vision
 To empower developers and organizations with **simple, transparent, and open** tools that reduce risk and strengthen trust. Data privacy should not be a barrier — it should be built-in.
 
 ### 🧪 Current Projects
@@ -36,10 +36,10 @@ To empower developers and organizations with **simple, transparent, and open** t
 - `cloud-sec-auditor`: Lightweight scanner for identifying security risks in cloud database configurations  
 - More tools and research coming soon…
 
-### 🤝 We Welcome Contributions
+### 🤝 Contributions Welcome
 Security and privacy are community efforts. If you're passionate about AI safety, cloud security, or data protection, feel free to open issues, submit PRs, or share ideas for new modules.
 
-Join us in building a safer digital ecosystem — one line of code at a time.  
+Help build a safer digital ecosystem — one line of code at a time.  
 
 
 ## LICENSE
